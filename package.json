@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.78.0"
+  },
+  "name": "form-creation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "predeploy": "git add . && git commit -m 'prepare deploy'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
